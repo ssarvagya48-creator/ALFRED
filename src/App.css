@@ -1,0 +1,78 @@
+.movies-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px 80px;
+}
+
+.movies-section h2 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.movie-grid {
+  display: flex;
+  gap: 20px;
+
+  overflow-x: auto;
+
+  padding: 8px 4px 20px;
+
+  scroll-behavior: smooth;
+
+  scrollbar-width: none;
+}
+
+.movie-grid::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-grid .movie-card {
+  flex: 0 0 210px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  margin-bottom: 22px;
+}
+
+.section-label {
+  margin-bottom: 6px;
+
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+
+  color: #69bfff;
+}
+
+.section-heading h2 {
+  margin: 0;
+
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.view-all-button {
+  border: none;
+  background: transparent;
+
+  color: #9ca8b8;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  cursor: pointer;
+
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.view-all-button:hover {
+  color: #ffffff;
+  transform: translateX(4px);
+}
